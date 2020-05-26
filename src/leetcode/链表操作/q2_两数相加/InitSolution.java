@@ -23,7 +23,6 @@ public class InitSolution {
         l2 = l2.next;
 
         ListNode temp = rs;
-
         /*
         * 第一次遍历：将两个链表节点的值相加，若节点为空则值用0填充*/
         while (l1 != null || l2 != null){
