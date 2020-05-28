@@ -11,6 +11,7 @@ public class InitSolution {
         ListNode tail = dummyHead;
 
         int length = 0;
+
         //第一次遍历，改成循环链表首尾连接
         while (tail.next != null){
             tail = tail.next;
