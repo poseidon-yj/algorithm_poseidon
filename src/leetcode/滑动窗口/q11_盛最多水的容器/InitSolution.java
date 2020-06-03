@@ -19,6 +19,7 @@ public class InitSolution {
         * 左指针left位于height最左侧，右指针right位于height最右侧，并记录此时的容量result
         * 关键点在于指针移动的条件
         * 因为容量size = Math.min(height[left],height[right]) * (right - left)，同时指针一旦移动(right - left)这个值会变小，所以要移动左右指针中小的那一个指针才有可能让result变大
+        *
         * */
         int left = 0;
         int right = height.length - 1;
