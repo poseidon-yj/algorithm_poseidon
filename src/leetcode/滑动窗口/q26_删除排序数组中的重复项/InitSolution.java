@@ -30,7 +30,7 @@ public class InitSolution {
 
     public static void main(String[] args) {
         InitSolution test = new InitSolution();
-        int[] nums = new int[]{0,0,2,3,3,4};
+        int[] nums = new int[]{0,0,2,3,3};
         System.out.println(test.removeDuplicates(nums));
     }
 }
