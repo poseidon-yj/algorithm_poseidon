@@ -9,7 +9,7 @@ import java.util.*;
 public class Exercise4 {
 
     public static interface Generator<T> {
-        public T next();
+        T next();
     }
 
     public static class GeneratorImpl implements Generator<String> {
