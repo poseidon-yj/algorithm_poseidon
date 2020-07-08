@@ -1,7 +1,5 @@
 package leetcode.二叉树.q94_中序遍历;
 
-//import leetcode.二叉树.q144_前序遍历.TreeNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
